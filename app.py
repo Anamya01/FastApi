@@ -10,8 +10,7 @@ local_storage = {}
 
 # Initialize with some sample data
 local_storage['faqs'] = json.dumps([
-    {"id": 1, "question": "What is Fruit.ai?", "answer": "Fruit.ai is an AI-powered platform that provides information about fruits."},
-    {"id": 2, "question": "How does the fruit chatbot work?", "answer": "Our fruit chatbot uses natural language processing to answer questions about fruits."}
+    {"id": 1, "question": "What is Fruit.ai?", "answer": "Fruit.ai is a platform that provides details about various fruits. "},
 ])
 
 def get_next_id():
